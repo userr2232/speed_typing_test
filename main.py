@@ -22,7 +22,6 @@ class Game:
         self.running = False
         self.phrases = self.get_phrases()
         pg.init()
-        self.image = pg.image.load('./static/images/typewriter.png')
         self.screen = pg.display.set_mode(self.dim)
         self.colors = {
             'BLACK': (0,0,0),
